@@ -48,4 +48,5 @@ document.querySelector('.again').addEventListener("click",()=>{
     document.querySelector('.number').style.width = '15rem';
     score=20;
     secretNumber = Math.floor(Math.random() * 20) + 1;
+    console.log(secretNumber);
 });
